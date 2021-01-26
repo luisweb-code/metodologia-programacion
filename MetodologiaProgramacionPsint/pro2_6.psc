@@ -1,3 +1,22 @@
+funcion determidador(num)
+	
+	si num = 0 Entonces
+		Escribir "NULO";
+		
+	SiNo
+		si num % 2 = 0 Entonces
+			Escribir "ES PAR";
+		SiNo
+			Escribir "IMPAR"
+		FinSi
+	FinSi
+	
+	
+	
+FinFuncion
+
+
+
 Algoritmo pro2_6
 	
 	
@@ -13,11 +32,9 @@ Algoritmo pro2_6
 	
 	si(num >= 0 O num <= 0 )Entonces
 		//Llamar a al Funcion 
-		Escribir "Dentro de la funcion"
+		determidador(num);
 		
-		si num = 0 Entonces
-			Escribir "NULO";
-		FinSi
+		
 	FinSi
 	
 FinAlgoritmo
